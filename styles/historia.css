@@ -52,7 +52,7 @@
     font-family: 'roboto', sans-serif;
 
     @media (min-width:1044px) {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         line-height: 24px;
     }
 }
