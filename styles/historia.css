@@ -17,6 +17,11 @@
         justify-content: start;
         align-items: start;
     }
+    
+    @media (min-width:1044px) {
+        margin-top: 88px;
+        min-height: 235px;
+    }
 }
 .historia__descricao {
     margin-top: 50px;
@@ -26,9 +31,19 @@
     @media (min-width:744px) {
         margin-top: 0px;
         text-align: left;
-        padding: 10px; 
-        width: 373px;
+        min-width: 373px;
+        max-width: 419px;
     }
+    @media (min-width:1044px) and (max-width:1291px) {
+        padding: 21px 0 28px 30px;
+        max-width: 730px;
+        margin-right: 35%;
+    }
+    @media (min-width:1291px) {
+        padding: 21px 0 28px 30px;
+        min-width: 730px;
+    }
+    
 }
 .historia__descricao p {
     font-size: 10px;
@@ -36,9 +51,14 @@
     padding-bottom: 5px;
     font-family: 'roboto', sans-serif;
 
+    @media (min-width:1044px) {
+        font-size: 1.6rem;
+        line-height: 24px;
+    }
 }
 .historia__descricao h2 {
     padding-bottom: 5px;
+
 }
 .container .historia__img {
     width: 150px;
@@ -48,9 +68,19 @@
     padding-bottom: 80px;
 
     @media (min-width:744px) {
-        width: 329px;
+        width: 319px;
         position: absolute;
         top: -78px;
         right: -15px;
+    }
+    @media (min-width:1044px) and (max-width:1291px) {
+        width: 450px;
+        top: -60px;
+        right: -50px;
+    }
+    @media (min-width:1292px) {
+        width: 650px;
+        top: -240px;
+        right: -50px;
     }
 }
