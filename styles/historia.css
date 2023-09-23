@@ -1,0 +1,24 @@
+.historia {
+    margin-top: 258px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    background-color: #455E64;
+    height: 215px;
+    position: relative;
+}
+.historia__descricao {
+    height: 130px;
+    text-align: center;
+    padding: 0 10px 16px;
+}
+.historia__descricao p {
+    font-size: 10px;
+    font-family: 'roboto', sans-serif;
+}
+.container .historia__img {
+    width: 150px;
+    text-align: center;
+    position: absolute;
+    top: -50%;
+}
