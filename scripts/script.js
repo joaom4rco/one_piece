@@ -28,6 +28,10 @@ const terceiraTela = document.getElementById('thirdSecond')
 document.querySelector('#sortear').addEventListener('click', function(){
     primeiraTela.style.display = 'none';
     segundaTela.style.display = 'flex'
+    setTimeout(function(){
+        segundaTela.style.display = 'none'
+        telaAposta.style.display = 'flex'
+    }, 2500)
 
 }) 
 
