@@ -44,5 +44,37 @@
     font-size: 1.2rem;
 } 
 .game__thirdScreen{
+    width: 100%;
+    height: 300px;
     display: none;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #435E64;
+}
+.game__thirdScreen__personagens {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+    margin-top: 25px;
+}
+.game__thirdScreen__personagens img {
+    width: 50px;
+    height: 50px;
+}
+.personagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.personagem img {
+    height: 80px;
+    width: 101px;
+}
+.personagem h4 {
+    font-size: 1.6rem;
+}
+.personagem table td {
+    padding-right: 12px;
+    padding-left: 12px ;
 }
