@@ -1,3 +1,5 @@
+import {personagens} from './personagens'
+
 const paineis = document.querySelectorAll('.painel');
 
 paineis.forEach((painel) => {
