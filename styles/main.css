@@ -10,7 +10,7 @@
     
 }
 body {
-    background-color: #003B5B;
+    background-color: #003B5B !important;
 }
 .container {
     margin: 0 10px 0 ;
