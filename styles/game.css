@@ -54,7 +54,7 @@
     background-color: #435E64;
 }
 .game__thirdScreen__personagens {
-    display: none;
+    display: flex;
     align-items: center;
     gap: 25px;
     margin-top: 25px;
