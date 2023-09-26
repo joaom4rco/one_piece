@@ -10,7 +10,7 @@ const personagens = [
         força: Math.floor(Math.random()*  40 + 10) ,
         haki: Math.floor(Math.random()*  100 + 30) ,
         agilidade:Math.floor(Math.random()* 60 + 40) , 
-        profile: 'imagens/Ace_png.webp'
+        profile: 'imagens/jimbei-painel.png'
     },
     {
         nome: 'luffy',
