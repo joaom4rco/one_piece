@@ -1,4 +1,3 @@
-export {personagens};
 
 const personagens = [
     {
@@ -19,4 +18,12 @@ const personagens = [
         haki: Math.floor(Math.random()*  80 + 50) ,
         agilidade:Math.floor(Math.random()* 40 + 50) , 
     }
-]
+];
+
+const sortear = document.getElementById('apostar')
+const primeiraTela = document.getElementById('firstScreen')
+const segundaTela = document.getElementById('secondScreen')
+const telaAposta = document.getElementById('telaAposta')
+const terceiraTela = document.getElementById('thirdSecond')
+
+sortear.addEventListener
