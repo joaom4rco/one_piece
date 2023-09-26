@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/personagens.css">
     <link rel="stylesheet" href="styles/slider.css">
     <link rel="stylesheet" href="styles/carrossel.css">
+    <link rel="stylesheet" href="styles/game.css">
     <title>olá</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -102,7 +103,7 @@
     <section class="game container">
         <h4> sorteie um personagem para derrotar o Deus usopp </h4>
         <div class="game__firstScreen">
-            <img src="imagens/deus-usopp.jpg" alt="Seus usopp">
+            <img src="imagens/usopp-modoImpossivel.jpg" alt="Seus usopp">
             <button id="sortear">SORTEAR</button>
         </div>
         <div class="game__segondScreen">
@@ -110,10 +111,43 @@
             <span>PROCURANDO UM PIRATA QUE SE ARRISCE A BATALHAR </span>
         </div>
         <div class="game__thirdScreen">
-            <span>...</span>
+            <span id="resultado">...</span>
             <div>
                 <div class="personagem">
                     <img src="imagens/Sogekingu.webp" alt="">
+                    <h5>usopp</h5>
+                    <table>
+                        <tr>
+                            <td>Haki do rei</td>
+                            <td>5000</td>
+                        </tr>
+                        <tr>
+                            <td>Haki da observação</td>
+                            <td>consegue ver 5000 anos no futuro</td>
+                        </tr>
+                        <tr>
+                            <td>Haki do armamento</td>
+                            <td>10000</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="adversario" id="oponente">
+                    <img src="imagens/sanji-personagem.jpg" alt="oponente">
+                    <h5 id="nomeOponente">sanji</h5>
+                    <table>
+                        <tr>
+                            <td>Haki do rei</td>
+                            <td id="reiOponente">5000</td>
+                        </tr>
+                        <tr>
+                            <td>Haki da observação</td>
+                            <td id="observacaoOponente">consegue ver 5000 anos no futuro</td>
+                        </tr>
+                        <tr>
+                            <td>Haki do armamento</td>
+                            <td id="armamentoOponente">10000</td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
