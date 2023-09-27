@@ -95,6 +95,7 @@ body {
 }
 .hero__nav__theme img {
     height: 26px;
+    cursor: pointer;
 
     @media (min-width: 744px) {
         height: 30px;
