@@ -228,9 +228,9 @@ function compararPersonagens(personagemApostado, personagem2) {
     }
 
     if (score1 > score2){
-        resultado.innerHTML = "VocÊ ganhou"
+        resultado.innerHTML = "Você ganhou"
     } else{
-        resultado.innerHTML = "VocÊ Perdeu"
+        resultado.innerHTML = "Você Perdeu"
     }
 
 }
