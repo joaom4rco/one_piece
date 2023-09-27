@@ -11,7 +11,7 @@ const personagens = [
         força: Math.floor(Math.random()*  40 + 10) ,
         haki: Math.floor(Math.random()*  100 + 30) ,
         agilidade:Math.floor(Math.random()* 60 + 40) , 
-        profile: 'imagens/imagens/Ace_png.webp'
+        profile: 'imagens/Ace_png.webp'
     },
     {
         nome: 'luffy',
@@ -59,11 +59,30 @@ document.querySelector('#sortear').addEventListener('click', function(){
         profileOponent.setAttribute ('src' , randomOponent.profile);
         nomeOponent.innerText = randomOponent.nome;
 
-    }, 2500)
+        document.getElementById('apostaDefault').addEventListener('click', function(){
+            compararPersonagens(usoppPlay, randomOponent);
+            telaAposta.style.display = 'none';
+            terceiraTela.style.display = 'flex';
 
+        })
+            document.getElementById("apostaRandom").addEventListener("click", function() {
+                compararPersonagens(randomOponent, usoppPlay);
+
+                telaAposta.style.display = 'none'
+                terceiraTela.style.display = 'flex'
+        });
+    }, 2500);
 }) 
 
-
+function compararPersonagens(personagemApostado, personagem2) {
+    let score1 = 0
+    let score2 = 0
+    if (personagemApostado.forca > personagem2.forca) {
+        score1++
+    } else if (personagemApostado.forca > personagem2.forca) {
+        score2++;
+    }
+}
 
 
 
