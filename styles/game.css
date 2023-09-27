@@ -4,6 +4,11 @@
     align-items: center;
     margin-top: 50px;
     margin-bottom: 100px;
+
+    @media (min-width: 744px) {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
 }
 .game__firstScreen {
     height: 200px;
@@ -14,11 +19,21 @@
     justify-content: center;
     margin-top: 20px;
     background-color: #435E64;
+
+    @media (min-width: 744px) {
+    margin-top: 40px;
+    height: 400px;
+    }
 }
 .game__firstScreen img {
     width: 180px;
     margin-bottom: 10px;
     border-radius: 5px;
+
+    @media (min-width: 744px) {
+        width: 331px;
+        margin-top: 35px;
+    }
 }
 .game__firstScreen button {
     width: 115px;
@@ -27,6 +42,13 @@
     font-size: 1.6rem;
     border: none;
     background-color: #003858;
+
+    @media (min-width: 744px) {
+        width: 262px;
+        height: 40px;
+        font-size: 2.4rem;
+        margin-top: 15px;
+    }
 }
 .game__secondScreen {
     width: 100%;
@@ -36,6 +58,11 @@
     justify-content: center;
     margin-top: 20px;
     background-color: #435E64;
+
+    @media (min-width: 744px) {
+        margin-top: 15px;
+        height: 400px;
+    }
 }
 .game__secondScreen img {
     width: 70%;
@@ -43,6 +70,10 @@
 }
 .game__secondScreen span {
     font-size: 1.2rem;
+
+    @media (min-width: 744px) {
+        font-size: 2rem;
+    }
 } 
 .game__thirdScreen{
     width: 100%;
@@ -53,6 +84,11 @@
     justify-content: center;
     margin-top: 20px;
     background-color: #435E64;
+
+    @media (min-width: 744px) {
+        margin-top: 40px;
+        height: 400px;
+    }
 }
 .game__thirdScreen__personagens {
     display: flex;
@@ -63,6 +99,12 @@
 .game__thirdScreen__personagens img {
     width: 50px;
     height: 50px;
+
+    @media (min-width: 744px) {
+        width: 100px;
+        height: 70px;
+
+    }
 }
 .personagem {
     display: flex;
@@ -72,9 +114,23 @@
 .personagem img {
     height: 80px;
     width: 101px;
+
+    @media (min-width: 744px) {
+        height: 160px;
+        width: 202px;
+    }
 }
-.personagem h4 {
+.personagem h5 {
     font-size: 1.6rem;
+
+    @media (min-width: 744px) {
+        font-size: 2rem;
+    }
+}
+.personagem table {
+    @media (min-width: 744px) {
+        font-size: 1.8rem;
+    }
 }
 .personagem table td {
     padding-right: 12px;
@@ -89,6 +145,11 @@
     justify-content: center;
     margin-top: 20px;
     background-color: #435E64;
+
+    @media (min-width: 744px) {
+        margin-top: 20px;
+        height: 400px;
+    }
 }
 .game__bind button {
     width: 100px;
@@ -97,4 +158,10 @@
     background-color: #003858;
     border-radius: 8px;
     border: transparent;
+
+    @media (min-width: 744px) {
+        width: 200px;
+        height: 40px;
+        font-size: 2.2rem;
+    }
 }
