@@ -1,8 +1,8 @@
 const kaidouPlay = {
     nome: "kaidou",
-    forca: Math.floor(Math.random() * 135  + 35),
+    forca: Math.floor(Math.random() * 140  + 35),
     agilidade: Math.floor(Math.random() * 120 + 35),
-    resistencia: Math.floor(Math.random() * 145 + 35),
+    resistencia: Math.floor(Math.random() * 132 + 35),
     profile: 'imagens/Kaido_29.webp',
 }
 const personagens = [    
@@ -106,8 +106,8 @@ const personagens = [
     },
     {
         nome: "Shanks",
-        forca: Math.floor(Math.random() * 180 + 45),
-        agilidade: Math.floor(Math.random() * 140 + 35),
+        forca: Math.floor(Math.random() * 130 + 25),
+        agilidade: Math.floor(Math.random() * 122 + 35),
         resistencia: Math.floor(Math.random() * 170 + 45),
         profile: 'https://cdn.discordapp.com/attachments/1065475855498891344/1065476172709900288/Shanks.png',
     },
