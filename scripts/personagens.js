@@ -67,7 +67,7 @@ const personagens = [
         forca: Math.floor(Math.random() * 120 + 40),
         agilidade: Math.floor(Math.random() * 115 + 35),
         resistencia: Math.floor(Math.random() * 118 + 55),
-        profile: 'https://cdn.discordapp.com/attachments/1065475855498891344/1065476115776417792/Luffy_gear.png',
+        profile: 'imagens/luffy_gear_51.png',
     },
     {
         nome: "Mihawk",
