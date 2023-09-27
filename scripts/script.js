@@ -1,6 +1,6 @@
 const usoppPlay = {
     nome: 'usopp',
-    força: Math.floor(Math.random()*  80 + 30) ,
+    forca: Math.floor(Math.random()*  80 + 30) ,
     haki: Math.floor(Math.random()*  150 + 30) ,
     agilidade:Math.floor(Math.random()* 40 + 80) , 
 }
@@ -8,14 +8,14 @@ const personagens = [
     
     {
         nome: 'ace',
-        força: Math.floor(Math.random()*  40 + 10) ,
+        força: Math.floor(Math.random()*  60 + 10) ,
         haki: Math.floor(Math.random()*  100 + 30) ,
         agilidade:Math.floor(Math.random()* 60 + 40) , 
         profile: 'imagens/Ace_png.webp'
     },
     {
         nome: 'luffy',
-        força: Math.floor(Math.random()*  40 + 10) ,
+        força: Math.floor(Math.random()*  80 + 10) ,
         haki: Math.floor(Math.random()*  100 + 30) ,
         agilidade:Math.floor(Math.random()* 60 + 40) , 
         profile: 'imagens/luffy(pós udon).webp'
@@ -42,7 +42,12 @@ let nomeOponentRes = document.getElementById('nomeOponenteRes');
 const  usopp = document.getElementById('usopp');
 const apostaRandom = document.getElementById('apostaRandom');
 const apostaDeafault = document.getElementById('apostaDefault'); 
-
+let forcaOponente = document.getElementById('forcaOponente')
+let hakiOponente = document.getElementById('hakiOponente');
+let agilidadeOponente = document.getElementById('agilidadeOponente');
+let forcaUsopp = document.getElementById('forcaUsopp');
+let hakiUsopp= document.getElementById('hakiUsopp');
+let agilidadeUsopp = document.getElementById('agilidadeUsopp');
 
 document.querySelector('#sortear').addEventListener('click', function(){
     primeiraTela.style.display = 'none';
@@ -64,12 +69,33 @@ document.querySelector('#sortear').addEventListener('click', function(){
             telaAposta.style.display = 'none';
             terceiraTela.style.display = 'flex';
 
+            forcaOponente.innerText = randomOponent.força;
+            hakiOponente.innerText = randomOponent.haki
+            agilidadeOponente.innerText = randomOponent.agilidade
+            nomeOponentRes.innerText = randomOponent.nome;
+            profileOponent2.setAttribute ('src' , randomOponent.profile);
+            
+
+            hakiUsopp.innerText = usoppPlay.forca
+            forcaUsopp.innerText = usoppPlay.haki
+            agilidadeUsopp.innerText = usoppPlay.agilidade
+
         })
             document.getElementById("apostaRandom").addEventListener("click", function() {
                 compararPersonagens(randomOponent, usoppPlay);
 
                 telaAposta.style.display = 'none'
                 terceiraTela.style.display = 'flex'
+
+                forcaOponente.innerText = randomOponent.força;
+                agilidadeOponente.innerText = randomOponent.agilidade;
+                hakiOponente.innerText = randomOponent.haki;
+                nomeOponentRes.innerText = randomOponent.nome;
+                profileOponent2.setAttribute ('src' , randomOponent.profile);
+
+                hakiUsopp.innerText = usoppPlay.forca
+                forcaUsopp.innerText = usoppPlay.haki
+                agilidadeUsopp.innerText = usoppPlay.agilidade
         });
     }, 2500);
 }) 
