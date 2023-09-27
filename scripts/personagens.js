@@ -1,8 +1,8 @@
 const kaidouPlay = {
     nome: "kaidou",
     forca: Math.floor(Math.random() * 135  + 35),
-    agilidade: Math.floor(Math.random() * 100 + 25),
-    resistencia: Math.floor(Math.random() * 145 + 25),
+    agilidade: Math.floor(Math.random() * 120 + 35),
+    resistencia: Math.floor(Math.random() * 145 + 35),
     profile: 'imagens/Kaido_29.webp',
 }
 const personagens = [    
@@ -15,9 +15,9 @@ const personagens = [
     },
     {
         nome: "Chopper",
-        forca: Math.floor(Math.random() * 50 + 5),
-        agilidade: Math.floor(Math.random() * 55 + 25),
-        resistencia: Math.floor(Math.random() * 45 + 25),
+        forca: Math.floor(Math.random() * 70 + 5),
+        agilidade: Math.floor(Math.random() * 85 + 25),
+        resistencia: Math.floor(Math.random() * 65 + 25),
         profile: 'https://cdn.discordapp.com/attachments/1063598024951083030/1065415055891497151/chopper.png',
     },
     {
@@ -119,11 +119,11 @@ const personagens = [
         profile: 'https://cdn.discordapp.com/attachments/1065475855498891344/1065476173083189459/smoke.png',
     },
     {
-        nome: "Usopp",
-        forca: Math.floor(Math.random() * 10 +25),
-        agilidade: Math.floor(Math.random() * 10 + 35),
-        resistencia: Math.floor(Math.random() * 10 + 25),
-        profile: 'https://cdn.discordapp.com/attachments/1065475855498891344/1065476173410349066/ussop.png',
+        nome: "Deus Usopp",
+        forca: Math.floor(Math.random() * 170 +25),
+        agilidade: Math.floor(Math.random() * 170 + 35),
+        resistencia: Math.floor(Math.random() * 170 + 25),
+        profile: 'imagens/usopp-one-piece-character-wallpaper-png-clipart.jpg',
     },
 ];
 const sortear = document.getElementById('sortear');
