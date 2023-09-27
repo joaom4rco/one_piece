@@ -44,7 +44,7 @@ const personagens = [
     {
         nome: "Kizaru",
         forca: Math.floor(Math.random() * 115 + 35),
-        agilidade: Math.floor(Math.random() * 105 + 45),
+        agilidade: Math.floor(Math.random() * 145 + 45),
         resistencia: Math.floor(Math.random() * 125 + 30),
         profile: 'https://cdn.discordapp.com/attachments/1065475855498891344/1065476114895605850/Borsalinoo.png',
     },
@@ -123,7 +123,7 @@ const personagens = [
         forca: Math.floor(Math.random() * 170 +25),
         agilidade: Math.floor(Math.random() * 170 + 35),
         resistencia: Math.floor(Math.random() * 170 + 25),
-        profile: 'imagens/usopp-one-piece-character-wallpaper-png-clipart.jpg',
+        profile: 'imagens/usopp-modoDeus.png',
     },
 ];
 const sortear = document.getElementById('sortear');
